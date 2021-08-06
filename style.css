@@ -238,7 +238,7 @@ opacity: 0;
      padding-top:100px;
  }
  .facilities-col{
-     flex-basis: 30%;
+     flex-basis: 42%;
      overflow: hidden;
      border-radius: 10px;
      margin-bottom: 5%;
@@ -246,7 +246,7 @@ opacity: 0;
  }
 
  .facilities-col img{
-     width: 100%;
+     width: 90%;
      border-radius:10px;
  }
  .facilities-col p{
@@ -270,9 +270,61 @@ opacity: 0;
       text-align: center;
    }
    .testimonials-col{
-       flex-basis: 10%;
-       position:relative;
+       flex-basis: 40%; /* this makes the rectangle width either increases or reduces*/
+       position:relative; /* kind of make the display side by side */
+       border-radius: 10px;
+       margin-bottom: 5%;
+       background: #fff3f3;
+       text-align: left;
+       cursor: pointer;
+       padding:25px;
+       display: flex;
    }
    .testimonials-col p{
        padding-top: 5%;
+       padding: 0;
    }
+   .testimonials-col img{
+       height: 40px; /*this reduceses the height of the image */
+       margin-left: 5px; /*5 px away from the box */
+       margin-right:30px; /*30px away from the write up */
+       border-radius: 50%; /*this makes the image round and reduces the size */
+   }
+   .testimonials-col i{
+       padding-top: 15px;
+   }
+   .testimonials-col .fa{
+       color: red;
+    
+   }
+    @media(max-width: 700px){
+        .testimonials-col img{
+            margin-left: 0px; /*5 px away from the box */
+            margin-right: 15px; /*30px away from the write up */
+            
+        }
+    }
+
+    /*  call to action*/
+    .cta{
+        width: 80%;
+        margin : 100px auto;
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/library\ 2.jfif);
+        background-position:center;
+        background-size: cover;/* this property make sthe image fill the maximum width, and it makes it not to duplicate*/
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .cta{
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    @media(max-width: 700px){
+        .cta{
+            color: white;
+            margin-bottom: 40px;
+            font-size: 13px;
+        }
+    }
