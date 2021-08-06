@@ -20,3 +20,6 @@ create the index.html file
    
    step :7 
    make 3 three to make columns on the web page
+
+   step: 8 
+   use the same idea to make  more colums, add new images and now text messages, add a hover on function with some text on it 
